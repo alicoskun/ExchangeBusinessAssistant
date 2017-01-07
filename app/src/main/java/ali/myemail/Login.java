@@ -24,8 +24,8 @@ public class Login extends ActionBarActivity {
     TextView tvError;
     Button btnLogin;
     Button btnChangeCre;
-    SharedPreferences preferences;//preferences referansý
-    SharedPreferences.Editor editor; //preferences editor nesnesi referansý .prefernces nesnesine veri ekleyip cýkarmak için
+    SharedPreferences preferences;//preferences referansÃ½
+    SharedPreferences.Editor editor; //preferences editor nesnesi referansÃ½ .prefernces nesnesine veri ekleyip cÃ½karmak iÃ§in
 
 
     @Override
@@ -40,8 +40,8 @@ public class Login extends ActionBarActivity {
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnChangeCre = (Button) findViewById(R.id.btnChangeCre);
 
-        preferences = PreferenceManager.getDefaultSharedPreferences(this);  // Preferences objesi oluþturuluyor
-        editor = preferences.edit();                                        // Ayný þekilde editor nesnesi oluþturuluyor
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);  // Preferences objesi oluÃ¾turuluyor
+        editor = preferences.edit();                                        // AynÃ½ Ã¾ekilde editor nesnesi oluÃ¾turuluyor
 
 
         try {
@@ -49,8 +49,8 @@ public class Login extends ActionBarActivity {
                 @Override
                 public void onClick(View v) {
                     etExchange.setText("https://outlook.office365.com/EWS/Exchange.asmx");
-                    etEmail.setText("alicoskun@alicoskun.onmicrosoft.com");
-                    etPassword.setText("Ali254267586");
+                    etEmail.setText("email@provider.com");
+                    etPassword.setText("password");
                 }
             });
 
