@@ -1,5 +1,5 @@
 # ExchangeBusinessAssistant
-EXCHANGE BUSINESS ASSISTANT bir android uygulaması
+EXCHANGE BUSINESS ASSISTANT Android Uygulaması
 
 Kullanıcının epostalarını, ajandasını ve şirket içi paylaşılan 
 dosyaların takibinin yapılabildiği bir android uygulamasıdır.
